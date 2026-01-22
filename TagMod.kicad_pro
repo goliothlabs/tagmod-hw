@@ -450,7 +450,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "jlink-uart-mod.kicad_pro",
+    "filename": "TagMod.kicad_pro",
     "version": 3
   },
   "net_settings": {

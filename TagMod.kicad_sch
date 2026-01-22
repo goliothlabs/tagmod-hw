@@ -1398,7 +1398,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 93.98) (xy 105.41 93.98)
+			(xy 85.09 96.52) (xy 105.41 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1508,7 +1508,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 93.98) (xy 125.73 93.98)
+			(xy 113.03 96.52) (xy 125.73 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1528,7 +1528,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 96.52) (xy 105.41 96.52)
+			(xy 85.09 93.98) (xy 105.41 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1608,7 +1608,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 96.52) (xy 125.73 96.52)
+			(xy 113.03 93.98) (xy 125.73 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1635,6 +1635,16 @@
 			(type default)
 		)
 		(uuid "d359dee9-c071-4381-a9a4-7d003656d2bd")
+	)
+	(wire
+		(pts
+			(xy 92.71 143.51) (xy 118.11 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7c3a2ad-5d37-4cc7-b345-fabe3a76ab54")
 	)
 	(wire
 		(pts
@@ -1676,6 +1686,16 @@
 		)
 		(uuid "fca37d7c-d594-45e1-9eeb-8b6c2bcfc9a6")
 	)
+	(label "5V_Supply"
+		(at 92.71 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0739fc26-bc34-4fba-824e-875ffa129ec5")
+	)
 	(label "SWDIO"
 		(at 105.41 88.9 180)
 		(effects
@@ -1687,7 +1707,7 @@
 		(uuid "1c08b080-15c8-4413-bf99-0211e1e9527c")
 	)
 	(label "JLINK_TX"
-		(at 125.73 93.98 180)
+		(at 125.73 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1707,7 +1727,7 @@
 		(uuid "4025c619-8d76-4190-b73a-421e4b6e7829")
 	)
 	(label "TARGET_RX"
-		(at 105.41 93.98 180)
+		(at 105.41 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1737,7 +1757,7 @@
 		(uuid "6eff1e19-d0c8-45e0-9712-e0fe3f132ee2")
 	)
 	(label "TARGET_TX"
-		(at 105.41 96.52 180)
+		(at 105.41 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1747,7 +1767,7 @@
 		(uuid "81ba0774-be76-46fe-b447-6ad1428eac88")
 	)
 	(label "JLINK_RX"
-		(at 125.73 96.52 180)
+		(at 125.73 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1852,8 +1872,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 109.22 96.52 90)
-		(mirror x)
+		(at 109.22 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1861,7 +1880,7 @@
 		(dnp no)
 		(uuid "2e2175ea-7772-4915-a3f2-fce42ce83697")
 		(property "Reference" "R70"
-			(at 109.22 99.06 90)
+			(at 109.22 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1869,7 +1888,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 109.22 96.52 90)
+			(at 109.22 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1877,7 +1896,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 109.22 94.742 90)
+			(at 109.22 95.758 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1886,7 +1905,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 96.52 0)
+			(at 109.22 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1895,7 +1914,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 96.52 0)
+			(at 109.22 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1904,7 +1923,7 @@
 			)
 		)
 		(property "Link1" ""
-			(at 109.22 96.52 0)
+			(at 109.22 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1913,7 +1932,7 @@
 			)
 		)
 		(property "MPN1" ""
-			(at 109.22 96.52 0)
+			(at 109.22 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1922,7 +1941,7 @@
 			)
 		)
 		(property "Vendor1" ""
-			(at 109.22 96.52 0)
+			(at 109.22 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1931,7 +1950,7 @@
 			)
 		)
 		(property "Extra" ""
-			(at 109.22 96.52 0)
+			(at 109.22 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2059,8 +2078,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 109.22 93.98 270)
-		(mirror x)
+		(at 109.22 96.52 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2068,7 +2086,7 @@
 		(dnp no)
 		(uuid "46e5891e-9bb4-43fb-a2a1-3d09f456a086")
 		(property "Reference" "R69"
-			(at 109.22 91.44 90)
+			(at 109.22 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2076,7 +2094,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 109.22 93.98 90)
+			(at 109.22 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2084,7 +2102,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 109.22 95.758 90)
+			(at 109.22 94.742 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2093,7 +2111,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 93.98 0)
+			(at 109.22 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2102,7 +2120,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 93.98 0)
+			(at 109.22 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2111,7 +2129,7 @@
 			)
 		)
 		(property "Link1" ""
-			(at 109.22 93.98 0)
+			(at 109.22 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2120,7 +2138,7 @@
 			)
 		)
 		(property "MPN1" ""
-			(at 109.22 93.98 0)
+			(at 109.22 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2129,7 +2147,7 @@
 			)
 		)
 		(property "Vendor1" ""
-			(at 109.22 93.98 0)
+			(at 109.22 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2138,7 +2156,7 @@
 			)
 		)
 		(property "Extra" ""
-			(at 109.22 93.98 0)
+			(at 109.22 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
