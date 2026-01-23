@@ -1,4 +1,4 @@
-26313862963928429
+26317401228460719
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104544,6 +104544,20 @@ USB-C-SMD_G-SWITCH_GT-USB-7010ASV
 0
 18
 16
+footprints
+tc-pins
+
+
+0
+0
+0
+footprints
+tc-pins-10mm
+
+
+0
+0
+0
 footprints
 the_golioth_5mm
 
