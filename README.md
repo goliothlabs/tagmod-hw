@@ -61,6 +61,13 @@ supply, matching the `1V8` / `3V3` silkscreen selectors.
   rev B outputs.
 - Whether rev B was ever fabricated, assembled, or electrically validated:
   [UNKNOWN].
+- **Known issue — regulator circuit needs further investigation.** Per the
+  designer (October 2026), the AMS1117-ADJ target-rail regulator had
+  problems; the root cause is not captured in this repo. Before any rev B
+  fabrication or field use, validate the LDO section (U1 plus the ADJ/VOUT
+  divider — 6.1 kΩ reference with 2.7 kΩ / 10 kΩ 0-ohm select options for
+  1.8 V / 3.3 V — and the D1/D2 rail steering) on the bench, loaded and
+  unloaded.
 - Design tool: KiCad 9.0 (schematic format 20250114, PCB format 20241229).
 
 ## Known gaps (pre-open-sourcing checklist)
